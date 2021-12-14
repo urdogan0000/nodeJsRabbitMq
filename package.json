@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "publisher": "node publisher.js",
-    "consumer":"node consumer.js"
+    "consumer": "node consumer.js",
+    "start":"nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "amqplib": "^0.8.0"
+    "amqplib": "^0.8.0",
+    "redis": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
